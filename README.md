@@ -22,6 +22,8 @@ CARTO and Geoapify styles can be used with your own free API key. No build step 
 
 ## Installation via HACS
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=ElVit&repository=person-map-card)
+
 1. HACS → **⋮** (top right) → **Custom repositories**
 2. Add `https://github.com/ElVit/person-map-card` with type **Dashboard**
 3. Search for "Person Map Card" and download it
