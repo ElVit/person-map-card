@@ -16,7 +16,7 @@ CARTO and Geoapify styles can be used with your own free API key. No build step 
 ## Features
 
 - Map background identical to Home Assistant's built-in map, **no API key needed**; optional CARTO or Geoapify styles with a free key
-- Light tint in the card background color and a theme-aware text and icon shadow with adjustable size (like the card-mod styling of the original)
+- Light tint in the card background color and a theme-aware text and icon shadow with adjustable size
 - Adjustable profile picture size
 - Marker and badge icon and color per zone (`home` green, away red, custom zones configurable)
 - Position can come from a separate `device_tracker` (e.g. your phone)
@@ -111,7 +111,7 @@ Colors: `green`, `blue`, `red`, `orange`, `yellow`, `purple`, `teal`, `cyan`, `p
 | `carto` | CARTO Positron | CARTO Dark Matter | **needed** (since 2026) – free key at [carto.com/basemaps/apikey](https://carto.com/basemaps/apikey), option `carto_api_key` |
 | `geoapify` | OSM Bright | Dark Matter (yellow roads) | **needed** – free key at [geoapify.com](https://www.geoapify.com/), option `geoapify_api_key` |
 
-Example for Card with Geoapify Map:
+Example with geoapify:
 
 ```yaml
 type: custom:person-map-card
