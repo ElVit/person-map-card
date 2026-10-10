@@ -1,5 +1,7 @@
 # Person Map Card
 
+<img src="image.png" alt="Person Map Card" width="96" align="left" hspace="16">
+
 A Lovelace card for Home Assistant that shows a person (or a `device_tracker`) on an
 **OpenStreetMap** background. It is inspired by the community card
 ["Person card with static map API background"](https://community.home-assistant.io/t/person-card-with-static-map-api-background/736643),
@@ -8,6 +10,8 @@ but needs **no API key**.
 By default the card embeds Home Assistant's own map (Home Assistant 2026.10+), so the background
 looks exactly like the built-in map, in light and dark mode, with tiles served and cached by Home Assistant.
 CARTO and Geoapify styles can be used with your own free API key. No build step needed.
+
+<br clear="left">
 
 ## Features
 
